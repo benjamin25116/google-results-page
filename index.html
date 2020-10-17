@@ -1,195 +1,251 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>the odin project - Google Search</title>
- <link rel="stylesheet" href="reset.css">
- <link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>the odin project - Google Search</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<script src="https://kit.fontawesome.com/d199d1748f.js" crossorigin="anonymous"></script>
 </head>
 
 
 
 <body>
- <header>
-  <nav class="nav-bar">
-   <div class="logo"></div>
-   <div class="search-bar">
-     <input type="text" class="search-input" value="the odin project">
-     <div class="input-cancel"><span>&times;</span></div>
-     <a href="#"><img class="search-icon" src="/images/search.png" alt="Magnifying glass"></a>
-   </div>
-   <div class="apps-and-login">
-     <div class="app-icon"></div>
-     <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/search%3Fhl%3Den%26q%3Dthe%2520odin%2520project"><div class="avatar"></div></a>
-    </div>
-  </nav>
- </header>
+	<header>
+		<nav class="nav-bar">
+			<div class="logo"></div>
+			<div class="search-bar">
+				<input type="text" class="search-input" value="the odin project">
+				<button class="cancel-button">
+					<div class="cancel-symbol"></div>
+				</button>
+				<div class="search-left-border">
+					<a href="#"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+			<div class="apps-and-login">
+				<div class="app-icon"></div>
+				<a
+					href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/search%3Fhl%3Den%26q%3Dthe%2520odin%2520project">
+					<div class="avatar"></div>
+				</a>
+			</div>
+		</nav>
+	</header>
 
 
 
- <main>
+	<main>
 
-   <div class="search-results-tab">Search result tabs</div>
-  <hr>
-  <div class="search-results">
-    
-   <p class="search-tally">About 11,700,000 results (0.38 seconds)</p>
+		<div class="search-results-tab">Search result tabs</div>
+		<hr>
+		<div class="search-results">
 
-   <div class="search-result-card">
-    <!-- <p>breadcrumbs > page > more-page > up-to-52-chars... </p> -->
-    <span class="search-result-breadcrumb">www.theodinproject.com</span>
-    <h2 class="search-result-title"><a href="">The Odin Project: Your Career in Web Development Starts Here</a></h2>
-    <span class="search-result-description"><strong>The Odin Project</strong> empowers aspiring web developers to learn
-     together.</span>
+			<p class="search-tally">About 11,700,000 results (0.38 seconds)</p>
 
-    <table>
-     <tr>
-      <td>
-       <h3>Web Development 101</h3>
-       <p>1. Fundamentals Part 1 - HTML and CSS Basics - HTML/CSS</p>
-      </td>
-      <td>
-       <h3>Login</h3>
-       <p>Login
-        Login. Remember Me Forgot your password? OR LOG IN WITH ...</p>
-      </td>
-     </tr>
+			<div class="search-result-card">
+				<!-- <p>breadcrumbs > page > more-page > up-to-52-chars... </p> -->
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">www.theodinproject.com</span></p><button><i
+							class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">The Odin Project: Your Career in Web Development Starts
+						Here</a>
+				</h2>
+				<p class="search-result-description"><strong>The Odin Project</strong> empowers aspiring web developers
+					to
+					learn
+					together.</p>
 
-     <tr>
-      <td>
-       <h3>Full Stack Javascript</h3>
-       <p>Javascript - NodeJS - Getting Hired - ...</p>
-      </td>
-      <td>
-       <h3>Javascript</h3>
-       <p>Overview. Make your websites dynamic and interactive with ...</p>
-      </td>
-     </tr>
+				<div class="mini-result-wrapper">
 
-     <tr>
-      <td>
-       <h3>Curriculum</h3>
-       <p>Tracks are our way of offering multiple paths through our ...</p>
-      </td>
-      <td>
-       <h3>About</h3>
-       <p>1The Odin Project provides a free open source coding curriculum ...
-       </p>
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <a href="/">More results from theodinproject.com >></a>
-      </td>
-     </tr>
-    </table>
-    <!-- End of search-result-card -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> Web Development 101</a></h3>
+						<p>Fundamentals Part 1 - HTML and CSS Basics - HTML/CSS</p>
+					</div>
 
-   <div class="faq">
-    <div>
-     <h2>People also ask</h2>
-    </div>
-    <div>Is the Odin project free?</div>
-    <div>How long does the Odin project take?</div>
-    <div>Is the Odin project any good?</div>
-    <div>How long does the Odin project take Reddit?</div>
-    <!-- End of faq -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> Login</a></h3>
+						<p>Login. Remember Me Forgot your password? OR LOG IN WITH ...</p>
+					</div>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">www.reddit.com > learnprogramming > comments > an...</span>
-    <h2 class="search-result-title">Anyone have any experience learning with The Odin Project ...</h2>
-    <span class="search-result-description">I've heard <strong>the odin project</strong> mentioned on here and other
-     forums a few times and wondered if anyone, professional or
-     beginner, could advise on whether it's ...</span>
-    <!-- End of search-result-card -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> Full Stack Javascript</a></h3>
+						<p>Javascript - NodeJS - Getting Hired - ...</p>
+					</div>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">www.switchup.org > bootcamps > the-odin-project</span>
-    <h2 class="search-result-title">The Odin Project Reviews | SwitchUp </h2>
-    <span class="search-result-description"><strong>The Odin Project</strong> was created to provide a complete path for
-     students to become employed as web developers while working with other
-     students along the way.</span>
-    <div class="search-result-rating">* * * * * Rating: 4.7 - 10 votes</div>
-    <!-- End of search-result-card -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> Javascript</a></h3>
+						<p>Overview. Make your websites dynamic and interactive with ...</p>
+					</div>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">www.instagram.com > theodinproject</span>
-    <h2 class="search-result-title">The Odin Project (@theodinproject) • Instagram photos and ...</h2>
-    <span class="search-result-description">2708 Followers, 2 Following, 15 Posts - See Instagram photos and videos from
-     <strong>The Odin Project (@theodinproject)</strong></span>
-    <!-- End of search-result-card -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> Curriculum</a></h3>
+						<p>Tracks are our way of offering multiple paths through our ...</p>
+					</div>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">github.com > TheOdinProject > theodinproject</span>
-    <h2 class="search-result-title">TheOdinProject/theodinproject: Main Website for The ... - GitHub</h2>
-    <span class="search-result-description">
-     <strong>The Odin Project</strong> is an open source community and curriculum for learning web development. Students
-     of <strong>The Odin Project</strong> build portfolio projects and complete ...</span>
-    <!-- End of search-result-card -->
-   </div>
+					<div class="mini-result">
+						<h3><a href="#"> About</a></h3>
+						<p>1The Odin Project provides a free open source coding curriculum ...
+						</p>
+					</div>
+					<a href="/" class="more-results">More results from theodinproject.com <i
+							class="fas fa-angle-double-right"></i></a>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">github.com > TheOdinProject</span>
-    <h2 class="search-result-title">The Odin Project • GitHub</h2>
-    <span class="search-result-description">
-     GitHub is home to over 50 million developers working together. Join them to grow
-     your own development teams, manage
-     permissions, and collaborate on <strong>projects</strong>.</span>
-    <!-- End of search-result-card -->
-   </div>
+				</div>
 
-   <div class="search-result-card">
-    <span class="search-result-breadcrumb">twitter.com > theodinproject</span>
-    <h2 class="search-result-title">The Odin Project (@TheOdinProject) | Twitter</h2>
-    <span class="search-result-description">
-     The latest Tweets from <strong>The Odin Project</strong> (@<strong>TheOdinProject</strong>). An open source online
-     curriculum for learning web
-     development. We help our students learn the ...</span>
-    <!-- End of search-result-card -->
-   </div>
+				<!-- End of search-result-card -->
+			</div>
 
-   <div class="related-searches">
-    <div class="related-search-col1">
-     <a href="/">the odin project <b>vs freecodecamp<b></a>
-     <a href="/">the odin project <b>review<b></a>
-     <a href="/">the odin project <b>python<b></a>
-     <a href="/">the odin project <b>review 2019<b></a>
-    </div>
-    <div class="related-search-col2">
-     <a href="/">the odin project <b>reddit<b></a>
-     <a href="/">the odin project <b>javascript<b></a>
-     <a href="/"><b>is</b> the odin project <b>free<b></a>
-     <a href="/"> the odin project <b>which track<b></a>
-    </div>
-    <!-- End of related-searches -->
-   </div>
+			<div class="faq">
+				<div>
+					<div>
+						<h2>People also ask</h2>
+					</div>
+					<div>Is the Odin project free?<i class="fas fa-angle-down"></i></div>
+					<div>How long does the Odin project take?<i class="fas fa-angle-down"></i></div>
+					<div>Is the Odin project any good?<i class="fas fa-angle-down"></i></div>
+					<div>How long does the Odin project take Reddit?<i class="fas fa-angle-down"></i></div>
+					<!-- End of faq -->
+				</div>
+				<div>Feedback</div>
+			</div>
 
-   <div class="search-results-pagination"> G o o o o o o o o o gle</div>
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">www.reddit.com</span> <i class="fas fa-angle-right"></i>
+						learnprogramming <i class="fas fa-angle-right"></i> comments <i class="fas fa-angle-right"></i<i
+								class="fas fa-angle-right"></i> an...
+					</p>
+					<button><i class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">Anyone have any experience learning with The Odin Project
+						...</a></h2>
+				<p class="search-result-description">I've heard <strong>the odin project</strong> mentioned on here and
+					other
+					forums a few times and wondered if anyone, professional or
+					beginner, could advise on whether it's ...</p>
+				<!-- End of search-result-card -->
+			</div>
 
-   <!-- End of search-results -->
-  </div>
- </main>
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">www.switchup.org</span> <i class="fas fa-angle-right"></i> bootcamps <i
+							class="fas fa-angle-right"></i> the-odin-project</p>
+					<button><i class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">The Odin Project Reviews | SwitchUp </a></h2>
+				<p class="search-result-description"><strong>The Odin Project</strong> was created to provide a complete
+					path for
+					students to become employed as web developers while working with other
+					students along the way.</p>
+				<div class="search-result-rating">
+					<span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</span> Rating: 4.7 - 10 reviews</div>
+				<!-- End of search-result-card -->
+			</div>
 
- <footer>
-  <div class="footer-top">
-   <div>Malaysia</div>
-   <div>• <b>Kuala Lumpur, Selangor</b> - From your Internet address - <a href="/">Use precise location</a> - <a
-     href="/">Learn
-     more</a></div>
-  </div>
-  <div class="footer-bottom">
-   <a href="/">Help</a>
-   <a href="/">Send feedback</a>
-   <a href="/">Privacy</a>
-   <a href="/">Terms</a>
-  </div>
- </footer>
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">www.instagram.com</span> <i class="fas fa-angle-right"></i>
+						theodinproject</p><button><i class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">The Odin Project (@theodinproject) • Instagram photos and
+						...</a></h2>
+				<p class="search-result-description">2708 Followers, 2 Following, 15 Posts - See Instagram photos and
+					videos
+					from
+					<strong>The Odin Project (@theodinproject)</strong></p>
+				<!-- End of search-result-card -->
+			</div>
+
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">github.com</span> <i class="fas fa-angle-right"></i> TheOdinProject <i
+							class="fas fa-angle-right"></i> theodinproject</p><button><i
+							class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">TheOdinProject/theodinproject: Main Website for The ... -
+						GitHub</a></h2>
+				<p class="search-result-description">
+					<strong>The Odin Project</strong> is an open source community and curriculum for learning web
+					development. Students
+					of <strong>The Odin Project</strong> build portfolio projects and complete ...</p>
+				<!-- End of search-result-card -->
+			</div>
+
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">github.com</span> <i class="fas fa-angle-right"></i> TheOdinProject</p>
+					<button><i class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">The Odin Project • GitHub</a></h2>
+				<p class="search-result-description">
+					GitHub is home to over 50 million developers working together. Join them to grow
+					your own development teams, manage
+					permissions, and collaborate on <strong>projects</strong>.</p>
+				<!-- End of search-result-card -->
+			</div>
+
+			<div class="search-result-card">
+				<div class="search-result-breadcrumb">
+					<p><span class="result-main-link">twitter.com</span> <i class="fas fa-angle-right"></i> theodinproject
+					</p><button><i class="fas fa-caret-down"></i></button>
+				</div>
+				<h2 class="search-result-title"><a href="#">The Odin Project (@TheOdinProject) | Twitter</a></h2>
+				<p class="search-result-description">
+					The latest Tweets from <strong>The Odin Project</strong> (@<strong>TheOdinProject</strong>). An open
+					source online
+					curriculum for learning web
+					development. We help our students learn the ...</p>
+				<!-- End of search-result-card -->
+			</div>
+
+			<span class="related-searches-title">Serches related to the odin project</span>
+			<div class="related-searches-card">
+				<div class="related-search-col">
+					<a href="#" class="related-searches">the odin project <b>vs freecodecamp</b></a>
+					<a href="#" class="related-searches">the odin project <b>review</b></a>
+					<a href="#" class="related-searches">the odin project <b>python</b></a>
+					<a href="#" class="related-searches">the odin project <b>review 2019</b></a>
+				</div>
+				<div class="related-search-col">
+					<a href="#" class="related-searches">the odin project <b>reddit</b></a>
+					<a href="#" class="related-searches">the odin project <b>javascript</b></a>
+					<a href="#" class="related-searches"><b>is</b> the odin project <b>free</b></a>
+					<a href="#" class="related-searches"> the odin project <b>which track</b></a>
+				</div>
+				<!-- End of related-searches -->
+			</div>
+
+			<div class="search-results-pagination"> G o o o o o o o o o gle</div>
+
+			<!-- End of search-results -->
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer footer-top">
+			<div>Malaysia</div>
+			<div><span>•</span><b>Kuala Lumpur, Selangor </b> - From your Internet address - <a href="/">Use precise
+					location</a> -
+				<a href="/">Learn
+					more</a></div>
+		</div>
+		<div class="footer footer-bottom">
+			<a href="/">Help</a>
+			<a href="/">Send feedback</a>
+			<a href="/">Privacy</a>
+			<a href="/">Terms</a>
+		</div>
+	</footer>
 
 </body>
 
