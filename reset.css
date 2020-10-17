@@ -48,6 +48,29 @@ table {
 	border-spacing: 0;
 }
 
-strong {
+b, strong {
 	font-weight: bolder;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.7em;
+    
+}
+
+a {
+    color: rgb(2, 30, 156);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
 }
